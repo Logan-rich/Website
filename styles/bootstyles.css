@@ -1,0 +1,103 @@
+/* Logan Richardson | 11 April 2022 */
+
+.navigationheader {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 25px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  
+  }
+
+  .common { /*background-color: whitesmoke; border:solid 2px black; */ 
+    position:absolute}
+
+
+.body {background-color: gray; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+.mainbody {top: 114px; bottom: 64px; right: 114px; left: 114px; padding-right: 5px;}
+
+.footer {bottom: 5px; height: 50px; left: 5px; right: 5px; font-size: 15px; color: black; text-align: center; position:fixed;}
+
+small, .small {
+  font-size: 1.1em;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #282a2d !important;
+}
+
+.fst-italic {
+  font-style: italic !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.boldkindabig {
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.coolfontforbottom {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color:seashell;
+}
+
+.tableausize {
+  margin:auto;
+  max-width: 3000px;
+}
+
+.column {
+  float: left;
+  width: 49.1%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableautext {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}

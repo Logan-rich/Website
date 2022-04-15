@@ -1,0 +1,75 @@
+body {
+    background-color:rgb(248, 248, 238);
+}
+
+.textalign {
+    text-align: center; font-weight: bold;
+}
+
+.footer {
+    text-align: center; font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.underline {
+    text-decoration: underline;
+    color: rgb(121, 121, 246)
+}
+
+.notbold {
+    font-weight: 10;
+    text-align: center;
+}
+
+.differentfont {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.smallfont {
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boldkindabig {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.normalresume {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.25em;
+}
+
+.headingresume {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 0.01em;
+}
+
+.justbold {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0.01em;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 0.001em;
+}
+
+.hollowbullit {
+    text-indent: 25px;
+    list-style-position: inside;
+    list-style-type: circle;
+}
